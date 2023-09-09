@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MovieZJCApp</string>
+    <string name="splash_screen_icon">Splash Screen Icon</string>
+    <string name="onboarding_image">On Boarding Image</string>
+    <string name="finish_button">Finish</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="chillmax">ChillMax</string>
+    <string name="error_icon">Error Icon</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="image_banner">Image Banner</string>
+    <string name="genres">Genres</string>
+    <string name="popular">Popular</string>
+    <string name="airing_today">Airing Today</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="release_date">Release Date</string>
+    <string name="casts">Casts</string>
+    <string name="view_all">View all</string>
+    <string name="arrow_forward">Arrow Forward</string>
+    <string name="back">Back</string>
+    <string name="cast_image">Cast image</string>
+    <string name="background_image">Background Image</string>
+    <string name="close_button">Close button</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="search_movie_series">Search Movie/Tv Show</string>
+    <string name="search">Search…</string>
+    <string name="close_click">close click</string>
+    <string name="profile_icon">Profile_icon</string>
+    <string name="categories">Categories</string>
+    <string name="close_search_bar">close search bar</string>
+    <string name="delete_icon">Delete_Icon</string>
+    <string name="empty_content">Empty content</string>
+    <string name="nothing_to_display">Nothing to display</string>
+    <string name="add_to_my_list">Add to My List</string>
+    <string name="arrow_back">Arrow Back</string>
+    <string name="my_list">My List</string>
+    <string name="like_movie_show">Like Movie/Show</string>
+
+    <string name="profile">My Profile</string>
+    <string name="notification">Notification</string>
+    <string name="history">History</string>
+    <string name="my_subscription">My Subscription</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+
+    <string name="deleteContent">Are you sure you want to delete?</string>
+    <string name="yesDelete">Yes, Delete</string>
+    <string name="no">No</string>
+
+    <string name="unlike">Unlike</string>
+    <string name="like">Like</string>
+    <string name="play">Play</string>
+    <string name="download">Download</string>
+</resources>
