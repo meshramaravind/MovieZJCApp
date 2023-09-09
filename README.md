@@ -23,3 +23,5 @@ Finally, rebuild the project for changes to take effect and don't forget to upda
 
 ►Design Credit: https://www.dhiwise.com/templates/jusplay-movie-streaming-app-flutter
 
+Some features are coming soon.
+
