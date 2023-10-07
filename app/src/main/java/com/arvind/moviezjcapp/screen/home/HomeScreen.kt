@@ -28,9 +28,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.LoadState
+import androidx.compose.foundation.lazy.items
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
-import androidx.paging.compose.items
 import com.arvind.moviezjcapp.R
 import com.arvind.moviezjcapp.common_components.StandardToolbar
 import com.arvind.moviezjcapp.domain.models.*
@@ -538,7 +538,7 @@ private fun ScrollableMovieItems(
             }
             is LoadState.NotLoading -> {
                 LazyRow(modifier = Modifier.fillMaxWidth()) {
-                    items(pagingItems) { film ->
+                    items(pagingItems.itemSnapshotList) { film ->
                         val imagePath = "$IMAGE_BASE_URL/${film!!.poster_path}"
                         MovieItem(
                             imageUrl = imagePath,

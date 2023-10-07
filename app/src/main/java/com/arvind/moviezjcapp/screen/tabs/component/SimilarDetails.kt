@@ -19,12 +19,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.compose.LazyPagingItems
-import androidx.paging.compose.items
+import androidx.compose.foundation.lazy.items
 import com.arvind.moviezjcapp.domain.models.Film
-import com.arvind.moviezjcapp.domain.models.MoviesDetails
-import com.arvind.moviezjcapp.screen.tabs.SimilarScreen
-import com.arvind.moviezjcapp.ui.theme.AppPrimaryColor
-import com.arvind.moviezjcapp.ui.theme.PrimaryGray
 import com.arvind.moviezjcapp.ui.theme.primaryPurpleColor
 import com.arvind.moviezjcapp.utils.Constants.IMAGE_BASE_URL
 import com.arvind.moviezjcapp.utils.FilmType
@@ -37,7 +33,7 @@ import com.skydoves.landscapist.coil.CoilImage
 fun SimilarDetails(similarFilms: LazyPagingItems<Film>) {
 
     LazyRow(content = {
-        items(similarFilms) { thisMovie ->
+        items(similarFilms.itemSnapshotList) { thisMovie ->
             CoilImage(
                 imageModel = "${IMAGE_BASE_URL}/${thisMovie!!.poster_path}",
                 shimmerParams = ShimmerParams(

@@ -20,7 +20,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
-import androidx.paging.compose.items
+import androidx.compose.foundation.lazy.items
 import com.arvind.moviezjcapp.R
 import com.arvind.moviezjcapp.common_components.StandardToolbar
 import com.arvind.moviezjcapp.domain.models.Film
